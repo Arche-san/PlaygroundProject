@@ -746,7 +746,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   happenOnlyOnce: 0
-  filterByTag: 0
+  filterByTag: 1
   filterTag: Bullet
 --- !u!61 &192000767
 BoxCollider2D:
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 0}
-  newPosition: {x: 0, y: 0, z: 0}
+  newPosition: {x: 0, y: 0}
   stopMovements: 1
 --- !u!1 &811112629
 GameObject:
@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 811112629}
-  newPosition: {x: 5, y: -1, z: 0}
+  newPosition: {x: 5, y: -1}
   stopMovements: 1
 --- !u!1 &906043196
 GameObject:
@@ -1726,7 +1726,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   happenOnlyOnce: 0
-  filterByTag: 0
+  filterByTag: 1
   filterTag: Bullet
 --- !u!1 &998940368
 GameObject:
@@ -3361,7 +3361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToMove: {fileID: 1908508971}
-  newPosition: {x: -5, y: 1, z: 0}
+  newPosition: {x: -5, y: 1}
   stopMovements: 1
 --- !u!1 &1939408797
 GameObject:
